@@ -105,6 +105,8 @@ function lib:Window(text, preset, closebind)
     Main.Size = UDim2.new(0, 0, 0, 0)
     Main.ClipsDescendants = true
     Main.Visible = true
+    local Corneritas = Instance.new("UICorner", Main)
+Corneritas.CornerRadius = UDim.new(0.025, 0)
 
     TabHold.Name = "TabHold"
     TabHold.Parent = Main

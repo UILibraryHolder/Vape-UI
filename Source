@@ -95,8 +95,6 @@ function lib:Window(text, preset, closebind)
     local Title = Instance.new("TextLabel")
     local TabFolder = Instance.new("Folder")
     local DragFrame = Instance.new("Frame")
-local UICornerrwgg = Instance.new("UICorner", Main)
-UICornerrwgg.CornerRadius = UDim2.fromScale(0.025, 0)
 
     Main.Name = "Main"
     Main.Parent = ui
@@ -108,6 +106,9 @@ UICornerrwgg.CornerRadius = UDim2.fromScale(0.025, 0)
     Main.ClipsDescendants = true
     Main.Visible = true
 
+local UICornerrwgg = Instance.new("UICorner")
+UICornerrwgg.Parent = Main
+UICornerrwgg.CornerRadius = UDim2.fromScale(0.025, 0)
     TabHold.Name = "TabHold"
     TabHold.Parent = Main
     TabHold.BackgroundColor3 = Color3.fromRGB(255, 255, 255)

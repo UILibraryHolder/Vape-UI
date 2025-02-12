@@ -106,9 +106,6 @@ function lib:Window(text, preset, closebind)
     Main.ClipsDescendants = true
     Main.Visible = true
 
-local UICornerrwgg = Instance.new("UICorner")
-UICornerrwgg.Parent = Main
-UICornerrwgg.CornerRadius = UDim2.fromScale(0.025, 0)
     TabHold.Name = "TabHold"
     TabHold.Parent = Main
     TabHold.BackgroundColor3 = Color3.fromRGB(255, 255, 255)

@@ -341,6 +341,7 @@ Corneritas.CornerRadius = UDim.new(0.025, 0)
         TabTitle.TextColor3 = Color3.fromRGB(150, 150, 150)
         TabTitle.TextSize = 14.000
         TabTitle.TextXAlignment = Enum.TextXAlignment.Left
+TabTitle.TextScaled = true
 
         TabBtnIndicator.Name = "TabBtnIndicator"
         TabBtnIndicator.Parent = TabBtn
